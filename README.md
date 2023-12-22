@@ -1,4 +1,4 @@
-﻿# **Venatus Discord Bot**
+﻿# **Discord Bot**
 ## **CAUTION BEFORE RUNNING**<br />
 -> Change all "single back slash" in path used in windows to "/" for linux or error occurs (-in file votebot.py path to the asset image)
 <br /><br />
@@ -21,6 +21,5 @@
 -> Bot_token.py in gitignore<br />
 -> Ffmpeg folder in gitignore for windows and for linux install ffmpeg<br />
 
-<br /><br />
-## **FOR ANY FURTHER ISSUE CONTACT THE WORKING TEAM or Not_Blackbuck#4912 on discord**<br />
+
 
