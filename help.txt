@@ -1,0 +1,41 @@
+*************EXPAND TO SEE*****************
+
+**MUSIC:**
+- `!play <song_name>`: Plays a song.
+- `!pause`: Pauses the current song.
+- `!resume`: Resumes the paused song.
+- `!skip`: Skips the current song.
+- `!queue`: Displays the current song queue.
+
+**VETO:**
+- `!csgo @captain1 @captain2`: Initiates a CS:GO map veto process between two captains. Captain 1 chooses first.
+
+**MEME:**
+- `!generateMeme <meme_name> <args>`: Generates a meme based on the given meme name and additional arguments.
+- `!displayTemplates`: Displays a list of meme templates available.
+- `!exampleMeme <meme_name>`: Generates an example meme based on the given meme name.
+- `!getMeme <genre> <image_format>`: Retrieves and sends a random meme based on the specified genre and image format.
+
+**MODERATION:**
+- `!clear (aliases: purge)`: Deletes a specified number of messages in the current channel.
+  - Usage: `!clear <limit>`
+- `!mute (aliases: timeout)`: Mutes a specified member for a given time period.
+  - Usage: `!mute <member_mention> <timelimit>`
+  - Note: Requires the appropriate role ("Moderator", "Administrator", "Owner").
+  - Timelimit parameter: Specify in seconds (s), minutes (m), hours (h), or weeks (w).
+    - Examples: 5s, 10m, 2h, 1w
+    - Replace the command prefix `!` with the one configured for your bot.
+
+**For @MODS/ADMINS:**
+- `!kick <user_mention> <reason>`: Kicks a mentioned user from the server.
+- `!ban <user_mention> <reason>`: Bans a mentioned user from the server.
+- `!unban <user_id>`: Unbans a user from the server using their user ID.
+
+**Poll:**
+- `!poll <duration> <question> <options>`: Creates a poll with the specified duration (in hours), question, and options.
+  - `<duration>`: Duration of the poll in hours.
+  - `<question>`: The question or topic for the poll.
+  - `<options>`: Two or more options for the poll, separated by spaces.
+  - Example usage: `!poll 2 "What is your favorite color?" "Red" "Blue" "Green"`
+
+Note: The maximum number of options allowed for the poll is 10. The bot will automatically assign reaction emojis for each option. The poll will end after the specified duration, and the results will be displayed.
